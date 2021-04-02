@@ -1,0 +1,68 @@
+/* Variables */
+
+$color-light-background: #fff;
+$color-medium-background: #f7f7f7;
+$color-hot-point: #fed136;
+$text-dark: #222222;
+
+$font-header: 'Montserrat', sans-serif;
+$font-think: 'Noto Serif', serif;
+$font-text: 'Roboto Slab', serif;
+$font-logo: 'Pacifico', cursive;
+
+/* Global */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: $font-text;
+  /*color: $color-light-background;*/
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* Navigation */
+
+nav .row {
+  display: flex;
+  padding: 20px 0;
+    .nav-logo {
+
+        a {
+          font-family: $font-logo;
+          color: $color-hot-point;
+          flex: 2;
+          text-decoration: none;
+        }
+    }
+    .nav-menu {
+      flex: 6;
+       ul {
+         list-style-type: none;
+         margin: 0;
+           li {
+             display: inline-block;
+             padding: 0 0 0 20px;
+             font-weight: bold;
+             font-size: 12px;
+             /*display: inline-flex;*/
+             /*justify-content: flex-end;*/
+               a {
+                 text-decoration: none;
+                 font-family: $font-header;
+                 font-size: 16px;
+                 /*color: $color-light-background;*/
+               }
+           }
+       }
+    }
+}
