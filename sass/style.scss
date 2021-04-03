@@ -34,7 +34,9 @@ body {
 
 nav .row {
   display: flex;
-  padding: 20px 0;
+  padding: 24px 0;
+  height: 80px;
+  margin-bottom: -80px;
     .nav-logo {
       display: flex;
       align-items: center;
@@ -59,12 +61,11 @@ nav .row {
            li {
              display: inline-block;
              padding: 0 0 0 20px;
-             font-weight: bold;
                a {
                  text-decoration: none;
                  font-family: $font-header;
                  font-size: 14px;
-                 /*color: $color-light-background;*/
+                 color: $color-light-background;
                }
            }
        }
