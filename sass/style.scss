@@ -146,7 +146,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-      .services {
+      .service {
         flex: 0 0 33.3333%;
         padding: 60px 10px 0 10px;
         justify-content: center;
@@ -162,4 +162,43 @@ nav {
             color: #777777;
           }
       }
+}
+
+/* PORTFOLIO */
+
+.portfolio-sec {
+  background-color: $color-medium-background;
+    .portfolio-box {
+      margin-top: 120px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+        .portfolio {
+          flex: 0 0 33.3333%;
+          margin: 0 0 50px 0;
+          padding: 0;
+          background-color: $color-light-background;
+          text-align: center;
+            img {
+              margin: 0;
+              padding: 0;
+            }
+            h6 {
+              font-size: 18px;
+              font-family: $font-header;
+              text-transform: capitalize;
+              margin: 32px auto 0 auto;
+              padding: 0;
+              msx-width: 290px;
+            }
+            p {
+              font-family: $font-think;
+              color: #777777;
+              font-size: 14px;
+              margin: 8px auto 30px auto;
+              padding: 0;
+              max-width: 290px;
+            }
+        }
+    }
 }
