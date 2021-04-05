@@ -174,7 +174,7 @@ nav {
       flex-wrap: wrap;
       justify-content: space-between;
         .portfolio {
-          flex: 0 0 33.3333%;
+          flex: 0 0 290px;
           margin: 0 0 50px 0;
           padding: 0;
           background-color: $color-light-background;
@@ -189,13 +189,13 @@ nav {
               text-transform: capitalize;
               margin: 32px auto 0 auto;
               padding: 0;
-              msx-width: 290px;
+              max-width: 290px;
             }
             p {
               font-family: $font-think;
               color: #777777;
               font-size: 14px;
-              margin: 8px auto 30px auto;
+              margin: 0 auto 30px auto;
               padding: 0;
               max-width: 290px;
             }
