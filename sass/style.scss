@@ -184,7 +184,7 @@ nav {
       margin-top: 120px;
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
+      justify-content: space-around;
         .portfolio {
           flex: 0 0 290px;
           margin: 0 0 50px 0;
@@ -241,4 +241,16 @@ ul {
           padding-top: 10px;
         }
     }
+}
+
+/* Media */
+
+@media (max-width: 768px) {
+  .services-box {
+    flex-direction: column;
+  }
+  footer p {
+    margin-bottom: 20px;
+    text-align: center;
+  }
 }
