@@ -172,6 +172,7 @@ nav {
         }
         p {
           color: #777777;
+          font-weight: normal;
         }
     }
 }
@@ -218,7 +219,7 @@ p {
   font-family: $font-header;
   font-size: 14px;
   color: #777777;
-  font-weight: bold;
+  /*font-weight: bold;*/
   margin-bottom: -29px;
 }
 
