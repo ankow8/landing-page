@@ -124,7 +124,7 @@ nav {
 /* Splash */
 
 .splash {
-  background-image: url(/images/splash.jpg);
+  background-image: url(../images/splash.jpg);
   background-size: cover;
   color: $color-light-background;
   min-height: 700px;
@@ -253,5 +253,8 @@ ul {
   footer p {
     margin-bottom: 20px;
     text-align: center;
+  }
+  .container {
+    padding: 60px 0;
   }
 }
